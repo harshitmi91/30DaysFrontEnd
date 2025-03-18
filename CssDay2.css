@@ -46,18 +46,22 @@ body{
     color: #777;
     margin-bottom: 15px;
 }
+
+
 .card button{
     padding: 10px 20px;
-    border: none;
+    border:none;
     background-color: #0077ff;
-    color: white;
     border-radius: 5px;
+    color: white;
     cursor: pointer;
 }
+
 .card button:hover{
     background-color: #005;
 }
-.card button:visited{
+
+ .card button:visited{
     background-color: #200;
-}
+} 
 
