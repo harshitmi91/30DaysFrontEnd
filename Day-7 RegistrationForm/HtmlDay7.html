@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CssDay7.css">
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form action="#" method="post">
+        <table border="1" cellpadding="10">
+            <tr>
+                <td><label for="name">Full Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <ul>
+                        <li><input type="radio" name="gender" value="Male">Male</li>
+                        <li><input type="radio" name="gender" value="Female">Female</li>
+                        <li><input type="radio" name="gender" value="other">Other</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="course">Select Course:</label></td>
+                <td>
+                    <ul>
+                        <li><input type="checkbox" name="course" value="HTML">HTML</li>
+                        <li><input type="checkbox" name="course" value="CSS">CSS</li>
+                        <li><input type="checkbox" name="course" value="JavaScript">JavaScript</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">Date Of Birth:</label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
